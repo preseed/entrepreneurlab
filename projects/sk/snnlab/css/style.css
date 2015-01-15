@@ -170,68 +170,7 @@ NAVIGATION /*Need to be recoded Use Flexboxes*//*
 ===========================================*/
 
 
-.nav {
-  background: #FFFFFF;
-  border-bottom: 0.0625em solid rgba(0,0,0,0.15);
-  position: absolute;
-  bottom: -1px;
-  width: 100%;
-  min-height: 71px;
-  z-index: 2;  
-  padding: 0;
-  margin: 0;
-  list-style: none
-}
 
-.nav-container {
- margin: 0 auto;
- padding: 0 3.75em;
- display: -webkit-box;
- display: -moz-box;
- display: -ms-flexbox;
- display: -webkit-flex;
- display: flex;
-
-
- -webkit-flex-flow: row wrap;
- -ms-flex-direction: row wrap;
- 
- justify-content: space-between;
- -webkit-justify-content: space-between;
- -ms-flex-pack: justify;
-}
-
-.nav-text {
-  padding-top: 28px;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.nav-text li {
-  display: inline-block;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  letter-spacing: .15px;
-  font-size: 0.8125em;
-  text-decoration: none;
-  color: black;
-  f
-}
-
-.nav-text li a {
-  text-decoration: none;
-  color: black;
-}
-
-.nav-text li:hover {
-  border-bottom: 2px solid #767676;
-  padding-bottom: 4px; 
-}
-
-.nav-text li:nth-child(2) {
-  margin-left: 33px;
-}
 
 .facebook-top {
   margin-right: 36px;
