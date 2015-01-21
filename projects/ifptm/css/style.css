@@ -25,6 +25,11 @@ img {
   background-size: cover;
 }
 
+hr.small {
+    max-width: 100px;
+}
+
+
 
 .facts {
   width: 90%;
