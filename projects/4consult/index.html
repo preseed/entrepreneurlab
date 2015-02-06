@@ -34,6 +34,70 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+ /* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	opacity: 0;
+	pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+	position: absolute;
+	bottom: 150%;
+	left: 50%;
+	margin-bottom: 5px;
+	margin-left: -80px;
+	padding: 7px;
+	width: 160px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius:    3px;
+	border-radius:         3px;
+	background-color: #000;
+	background-color: hsla(0, 0%, 20%, 0.9);
+	color: #fff;
+	content: attr(data-tooltip);
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.2;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+	position: absolute;
+	bottom: 150%;
+	left: 50%;
+	margin-left: -5px;
+	width: 0;
+	border-top: 5px solid #000;
+	border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	content: " ";
+	font-size: 0;
+	line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+	visibility: visible;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	opacity: 1;
+}
+ </style>
 
 </head>
 
@@ -72,9 +136,10 @@
 			<h2 style="font-size:4.2vw;font-size:4.5vh;">Startups | SMEs | Large Corporations</h2>
             <h3 style="font-size:3.3vw;font-size:3.4vh;">Here <a href="http://preseed.in" target="_blank" title="" style="font-size:3.3vw;font-size:3.4vh;"> Preseed </a>  manifests its art for fund backed progressive startups, SMEs and large corporations.</h3>
             <br>
-			
-            <h3 style="font-weight:normal;color:black;font-size:3.3vw;font-size:3.4vh;">4Consult's <a href="http://entrepreneurlab.preseed.in/projects/4consult/dealflow" target="_blank" style="color:#428bca">startup investment brokering</a> initiative</h3>
-            <h3 style="font-weight:normal;color:black;font-size:3.3vw;font-size:3.4vh;">4Consult also runs a  <a href="http://entrepreneurlab.preseed.in/projects/4consult/accelerator/" target="_blank" style="color:#428bca"> startup acceleration programme</a></h3>
+			<h3 style="font-weight:normal;color:black;font-size:3.3vw;font-size:3.4vh;">4Consult's <a href="http://entrepreneurlab.preseed.in/projects/4consult/slm" target="_blank" style="color:#428bca">startup leadership mentoring</a></h3>
+        
+            <h3 style="font-weight:normal;color:black;font-size:3.3vw;font-size:3.4vh;">4Consult's<a href="#" data-tooltip="Coming Soon" style="color:#428bca;text-decoration:none;"> startup acceleration programme</a></h3>
+               <h3 style="font-weight:normal;color:black;font-size:3.3vw;font-size:3.4vh;">4Consult's <a href="http://entrepreneurlab.preseed.in/projects/4consult/dealflow" target="_blank" style="color:#428bca">startup investment brokering</a> initiative</h3>
 			
         </div>
         
