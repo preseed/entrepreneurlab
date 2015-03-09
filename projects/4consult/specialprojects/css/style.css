@@ -822,7 +822,7 @@
 		background-size:			auto,								cover;
 		background-position:		top left,							center center;
 		background-repeat:			repeat,								no-repeat;
-		padding: 4em 0 10em 0;
+		padding: 1em 0 2em 0;
 		text-align: center;
 		color: #fff;
 	}
@@ -833,7 +833,7 @@
 		
 			#header header h1
 			{
-				font-size: 4.25em;
+				font-size: 4.30em;
 				line-height: 1.25em;
 				margin-bottom: 0;
 				font-weight:normal;
@@ -842,13 +842,13 @@
 			
 			#header header p
 			{
-				margin-top: 1.25em;
+				margin-top: 0.50em;
 				font-weight: light;
 				padding: 0;
-				font-size: 1.50em;
+				font-size: 1.10em;
 				line-height: 1.5em;
 				text-align: center;
-				color:w;
+				color:white;
 				
 			}
 			
