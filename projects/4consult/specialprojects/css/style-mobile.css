@@ -134,7 +134,7 @@
 /* UI                                                                            */
 /*********************************************************************************/
 
-	#titleBar
+	/* #titleBar
 	{
 	}
 
@@ -176,7 +176,7 @@
 			#titleBar .toggle:active:before
 			{
 				opacity: 0.5;
-			}
+			} */
 
 	#navPanel
 	{
@@ -226,6 +226,7 @@
 	#header-wrapper
 	{
 		padding: 0 20px 0 20px;
+		background:url('../images/bg-2.png') no-repeat center center scroll;
 	}
 
 	#features-wrapper

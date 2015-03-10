@@ -601,7 +601,8 @@
 	#header-wrapper
 	{
 		position: relative;
-		background: #334960;
+		/* background: #334960; */
+		background:url('../images/bg-1.png') no-repeat center center scroll;
 		text-align: center;
 	}
 
