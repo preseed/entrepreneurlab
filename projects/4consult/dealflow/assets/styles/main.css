@@ -25,8 +25,8 @@ body {
 
 h1, h2 {    
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
+  /*   font-weight: 700; */
+    /* text-transform: uppercase; */
 }
 
 a {
@@ -290,7 +290,7 @@ section.split .copy .content blockquote {
     font-size: 80px;
     line-height: 100px;
     color: #ffffff;
-	background-image:url(Dealflow_white.png);
+	/* background-image:url(Dealflow_white.png); */
 	background-position:center;
 	background-repeat:no-repeat;
    
