@@ -184,6 +184,23 @@ hr.small {
     
 }
 
+@media only screen and (max-width:769px){
+
+.header{
+
+height:650px !important;
+
+}
+.header a{
+font-size:12px !important;
+}
+
+.header h3{
+font-size:12px !important;
+}
+
+}
+
 /* About */
 
 .about {
