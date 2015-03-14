@@ -188,7 +188,7 @@ hr.small {
 
 .header{
 
-height:650px !important;
+height:600px !important;
 
 }
 .header a{
@@ -197,6 +197,8 @@ font-size:12px !important;
 
 .header h3{
 font-size:12px !important;
+padding-left:15px !important;
+padding-right:15px !important;
 }
 
 }
