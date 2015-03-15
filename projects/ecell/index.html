@@ -13,7 +13,7 @@
     <link href="assets/css/docs.css" rel="stylesheet">
 	<link href="assets/css/icons.css" rel="stylesheet">
     <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-	<link href="icons.css" rel="stylesheet">
+	<!--<link href="icons.css" rel="stylesheet">
 	<link href="css/epicslider.css" rel="stylesheet">
 	<link href="css/flexslider.css" rel="stylesheet">
 		<link href="css/jquery.fancybox-1.3.4.css" rel="stylesheet">
@@ -21,8 +21,7 @@
 				<link href="css/style.css" rel="stylesheet">
 				<link href="css/udt_media_queries.css" rel="stylesheet">
 				<link href="css/udt_shortcodes.css" rel="stylesheet">
-					<link href="css/bootstrap.css" rel="stylesheet">
-
+					<link href="css/bootstrap.css" rel="stylesheet">-->
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -53,8 +52,9 @@
 </script>
 
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap-transition.js"></script>
+   <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- <script src="assets/js/bootstrap-transition.js"></script>
     <script src="assets/js/bootstrap-alert.js"></script>
     <script src="assets/js/bootstrap-modal.js"></script>
     <script src="assets/js/bootstrap-dropdown.js"></script>
@@ -66,11 +66,12 @@
     <script src="assets/js/bootstrap-collapse.js"></script>
     <script src="assets/js/bootstrap-carousel.js"></script>
     <script src="assets/js/bootstrap-typeahead.js"></script>
-    <script src="assets/js/bootstrap-affix.js"></script>
+    <script src="assets/js/bootstrap-affix.js"></script>-->
+	<script src="assets/js/bootstrap.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
 
-<script type="text/javascript" src="assets/js/jquery.lazyload.js"></script>
+<!--<script type="text/javascript" src="assets/js/jquery.lazyload.js"></script>-->
 
     <script src="assets/js/holder/holder.js"></script>
     <script src="assets/js/google-code-prettify/prettify.js"></script>
@@ -82,7 +83,7 @@ $('a.navigateTo').on('click',function(e){
 	 return false;*/
 });
 </script>
-    <script src="assets/js/application.js"></script>
+   <!-- <script src="assets/js/application.js"></script>-->
 
 
   </head>
@@ -91,20 +92,21 @@ $('a.navigateTo').on('click',function(e){
   
     <!-- Navbar
     ================================================== -->
-    <div class="navbar navbar-inverse navbar-fixed-top" >
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <div class="nav-collapse collapse">
-           
-            <ul class="nav" style="float:left;">
-				<a class="brand" href="http://preseed.in"><img src="rsz_12logo.png" title="Home" alt=""/></a> 
-   			</ul>
-			<ul class="nav" style="float:right;">
+	
+<div class="navbar navbar-inverse navbar-fixed-top navbar-wrapper " role="navigation">
+<div class="navbar-inner">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+			  <a class="brand" href="http://preseed.in" style="margin:10px;"><img src="images/preseedlogonavbar.png" title="Home" alt=""/></a> 
+			  </div>
+          <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right" style="margin-left:10px;">
 
 				 <li class=""><a href="http://entrepreneurlab.preseed.in/projects/ecell/" >Home</a></li>
          <li ><a href="http://weblab.preseed.in">Web Lab</a></li>
@@ -113,19 +115,21 @@ $('a.navigateTo').on('click',function(e){
 				 <li class=""><a href="http://patron.preseed.in">Patron</a></li>
           <li class=""><a href="http://preseed.in/#Media-Network">Media Network</a></li>
 
-         <li class="hov"><a title="Medium" href="https://medium.com/@Nishchal/collections" target="_blank" title="" ><img src="images/med4.png"   class="hov"  style="padding-bottom: 3px"  style="padding-top: 10px"/></a></li> 
+         <li class="hov"><a title="Medium" href="https://medium.com/@Nishchal/collections" target="_blank" title="" ><img src="images/me6.png"   class="hov"  style="padding-bottom: 3px"  style="padding-top: 10px"/></a></li> 
         <li class="hov"><a tittle="Tumblr" href="http://blog.preseed.in" target="_blank" data-icon="&#xe004;" style="font-size:16px;"  style="padding-top: 10px"></a></li>
         <li><a title="Facebook" href="http://www.facebook.com/thepreseed" target="_blank" data-icon="&#xe002;" style="font-size:16px;"  style="padding-top: 10px"></a></li>
         <li><a title="Twitter" href="http://twitter.com/thepreseed" target="_blank" data-icon="&#xe003;" style="font-size:16px;"  style="padding-top: 10px"></a></li>
-								
 			</ul>
-
           </div>
         </div>
       </div>
-    </div>
-
-
+   </div>
+	  
+    
+	
+	
+	
+	
 
 <div class="jumbotron masthead">
   <div class="container">
@@ -135,54 +139,55 @@ $('a.navigateTo').on('click',function(e){
 <p>This is where we work with those with a will to do something out of the ordinary.</p>
 <br /><br /><br /><br /><br />
       <div class="row-fluid">
-	    <div class="span3">   <div class="round-thumb-container">
-                    <div class="round-thumb">
+	    <div class="col-md-3">   <div class="round-thumb-container">
+                   <!-- <div class="round-thumb">-->
                      	 <a href="#pretalksection" class="navigateTo"><span>
                             <img class="lazy" src="assets/img/img1_hover.png" width="200px" height="200px" alt=""/>                       
                          </span>           </a>         
-                    </div>
+                    <!--</div>-->
               </div>
-<h3>Pre Talk</h3>
+<h3 style="margin-bottom:40px;">Pre Talk</h3>
             </div>
 	
-		  <div class="span3"><div class="round-thumb-container">
-                    <div class="round-thumb">
+		  <div class="col-md-3" ><div class="round-thumb-container">
+                   <!-- <div class="round-thumb">-->
 					<a href="#startupessentials">
                      	 <span>
                             <img class="lazy" src="assets/img/img2_hover.png" width="200px" height="200px" alt=""/>                       
                          </span>   
 						 </a>    
-						 <h3>Startup Essentials</h3>             
-                    </div>
+						 <h3 style="margin-bottom:40px;">Startup Essentials</h3>             
+                   <!-- </div>-->
               </div></div>
 
-		  		  <div class="span3">
+		  		  <div class="col-md-3" >
               <div class="round-thumb-container">
-                  <div class="round-thumb">
+                 <!-- <div class="round-thumb">-->
 					             <a href="#startupinitiative">
                      	 <span>
                             <img class="lazy" src="assets/img/img3_hover.png" width="200px" height="200px" alt=""/>                       
                          </span>  
 						          </a>   
-						          <h3>PEC Startups</h3>               
-                  </div>
+						          <h3 style="padding-bottom:40px;">PEC Startups</h3>               
+                  <!--</div>-->
               </div>
             </div>
 
-			  <div class="span3">
+			  <div class="col-md-3" >
           <ul class="img-list">
              <li>
                 <div class="round-thumb-container">
-                  <div class="round-thumb">
+                 <!-- <div class="round-thumb">-->
                       <span>
                         <img class="lazy" src="assets/img/img4_hover.png" width="200px" height="200px" alt="" />
                         <span class="text-content"><span><h3>COMING SOON</h3></span></span>
                       </span>
-                  </div>
+					  <h3 style="margin-bottom:40px;">Hack Culture</h3> 
+                  <!--</div>-->
                 </div>
              </li>
           </ul>
-          <h3>Hack Culture</h3>               
+                        
        </div>
               
 </div>
@@ -231,7 +236,7 @@ $('a.navigateTo').on('click',function(e){
     ================================================== -->
  <footer class="footer">
       <div class="container">
-	  <p><a href="https://medium.com/preseed-so-far" target="_blank"> read more on preseed entrepreneur cell</a><p>
+	  <p><a href="https://medium.com/preseed-so-far" target="_blank"> Read More on Preseed E Cell</a><p>
       </div>
      <br>
       <p style="text-align:center"><a href="http://preseed.in/legal" target="_blank" title=""> Copyright © 2014 Preseed Ventures Pvt. Ltd. | All Rights Reserved</p></a>
