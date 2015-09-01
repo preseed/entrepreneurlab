@@ -14,6 +14,7 @@ body {
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+   background-color: rgb(16,13,39);
 }
 
 .text-vertical-center {
@@ -176,7 +177,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-       background-color: lightcyan;
+       background-color: rgb(16,13,39);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
