@@ -348,7 +348,7 @@ background: url('../img/bg-noise.png') left top repeat,
 .pretalkcol1header{
 /*padding-left:50px;*/
 font-family: helvetica !important;
-margin-top:115px !important;
+margin-top:115px;
 font-size:59.9pt;;
 color: #FFFFFF !important;/*#efd99d//#efd99d !important;//e3d7a7*/
 opacity:0.9;
