@@ -1,7 +1,9 @@
 .navbar-wrapper {
     margin-top: 0 !important;
 }
-
+body {
+  overflow-x: hidden;
+}
 /*Navigation*/
 .navbar-custom {
   margin-bottom: 0;
@@ -115,6 +117,10 @@
   .text_handling {
     padding-right: 10px;
     padding-left: 10px; 
+  }
+  .padding_handle {
+    padding-right: 10px; 
+    padding-left: 10px;
   }
 }
 
